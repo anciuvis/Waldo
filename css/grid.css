@@ -5,6 +5,7 @@
 .row {
   margin-left: -15px;
   margin-right: -15px;
+  text-align: center;
 }
 
 [class*="col-"] {
@@ -34,7 +35,13 @@
 }
 
 .container {
-  min-width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   background: #cec1a0;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
 }
